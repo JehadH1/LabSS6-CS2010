@@ -1,4 +1,5 @@
-
+#ifndef code_h
+#define code_h
 
 #include <vector>
 #include <algorithm>
@@ -31,3 +32,5 @@ void print();
 void getMemory(int sizeMem, int expiration);
 void cleanMemory(int clock);
 void printStats();
+
+#endif
